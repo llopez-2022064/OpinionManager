@@ -1,0 +1,2 @@
+# OpinionManager
+Gestor de opiniones
