@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "GestorDeOpiniones",
-    "dateExported": "2024-03-02T16:12:19.654Z",
+    "dateExported": "2024-03-02T17:17:41.443Z",
     "version": "1.1",
     "folders": [
         {
@@ -433,6 +433,20 @@
                     "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNDU0YTNjMTA5NGM4MWJjMzdlMmUiLCJ1c2VybmFtZSI6Imxsb3BleiIsIm5hbWUiOiJSZW5lIiwiaWF0IjoxNzA5MzkzOTg4LCJleHAiOjE3MTE5ODU5ODh9.PUOr3PhLldiv4MluE4Vz9KkF4Fu4gjgadCcb5D2GJTM"
                 }
             ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59a68e93-4fdb-4250-9f45-2865017c5ad7",
+            "colId": "372e7a99-f12c-4aeb-a38d-6e402f72e98e",
+            "containerId": "1dd1b39b-8957-436d-8fc0-8646fcea469a",
+            "name": "Get Categories",
+            "url": "/category/getCategories",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-03-02T17:09:18.690Z",
+            "modified": "2024-03-02T17:09:30.158Z",
+            "headers": [],
             "params": [],
             "tests": []
         }

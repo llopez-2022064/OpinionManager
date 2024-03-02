@@ -33,6 +33,7 @@ export const updateCategory = async (req, res) => {
         return res.status(500).send({ message: 'Error updating category' })
     }
 }
+
 export const deleteCategory = async (req, res) => {
     try {
         let idCategory = req.params.id
@@ -59,7 +60,7 @@ export const deleteCategory = async (req, res) => {
 export const getCategories = async (req, res) => {
     try {
         let categories = await Category.find()
-        if (!categories.length == 0) return res.status(404).send({ message: 'No categories' })
+        if (categories.length == 0) return res.status(404).send({ message: 'No categories' })
         return res.status(200).send({ categories })
     } catch (error) {
         console.error(error)
